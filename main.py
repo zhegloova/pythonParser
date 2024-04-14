@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 import csv
 from model import Product
 
-
 def parser(url: str, max_item: int):
     create_csv()
     page = 1
